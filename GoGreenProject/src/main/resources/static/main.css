@@ -1,0 +1,196 @@
+.carousel .carousel-inner{
+    height: 450px;
+    
+}
+.carousel-inner .carousel-item img{
+    position: relative;
+    object-fit:cover;
+    height: 500px;
+    width: 400px;
+}
+.bg-black {
+	background: linear-gradient(to right, #3ac689, #26c85f);
+}
+
+.bg-orange {
+	background-color: #f0644f;
+	color: aliceblue;
+	font-weight: 600;
+	text-align: center;
+}
+
+.btn{
+    background-color: transparent;
+    border: #fff solid;
+}
+
+.contactbutton{
+    margin-left: 70%;
+    font-size: 12px;
+}
+
+.btn-new {
+	background-color: #f0644f;
+	color: #fff;
+}
+
+m-right {
+	border: 2px solid #f0644f;
+	border-right: 2px solid #fff;
+}
+
+.underline {
+	width: 100px;
+	height: 2px;
+	background-color: orangered;
+}
+.bg-light-gray {
+	background-color: rgba(111,111,111,0.09);
+}
+
+.card {
+	border: 1px solid orange;
+}
+
+footer {
+	height: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+/* form */
+
+  body {
+    background: #f6f5f7;
+    color: #444;
+  }
+  
+  form {
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  
+  /* form input[type=file] {
+    display: block;
+    padding: 10px 0;
+  } */
+  
+  form .upload-btn-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    overflow: hidden;
+  }
+  
+  form .upload-btn-wrapper button {
+    
+    border: none;
+    color: white;
+    background-color: #09bd78;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  form .upload-btn-wrapper input[type=file] {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+  }
+  
+  .preview {
+    padding: 0;
+    margin: 10px 0 0 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+    overflow: auto;
+  }
+  
+  .preview .loading {
+    animation: fade 600ms alternate infinite;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .preview ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .preview ol li {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px #EEE solid;
+  }
+  
+  .preview ol li:last-child {
+    border-bottom: none;
+  }
+  
+  .preview ol li p {
+    margin: 0;
+    word-wrap: break-word;
+  }
+  
+  .preview ol li img {
+    display: block;
+    margin: 15px 0;
+    max-width: 100%;
+  }
+  
+  .preview ol li canvas {
+    display: block;
+    margin: 15px 0;
+    max-width: 100%;
+  }
+  
+  .preview > p {
+    padding: 15px 18px;
+    color: #AAA;
+    margin: 0;
+    word-wrap: break-word;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #09bd78;
+  }
+
+  .offercontainer {
+	background-color: #fff;
+	border-radius: 10px;
+  	
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	
+    margin-left: 23%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding: 1%;
+	
+	
+	transition: all 0.6s ease-in-out;
+} 
+
+.listcontainer{
+    margin-bottom: 2%;
+}

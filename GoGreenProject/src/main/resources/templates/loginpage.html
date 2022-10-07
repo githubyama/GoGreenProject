@@ -1,0 +1,34 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoGreen Main</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<div class="container" id="container">
+	<div class="form-container sign-in-container">
+		<h1>Sign in</h1>
+		<form th:action="@{/login}" th:object="${loginForm}" method="post">
+
+			<span>or use your account</span>
+			<input type="text" th:field="*{email}" placeholder="Email" />
+			<input type="password" th:field="*{password}" placeholder="Password" />
+			<input type="submit" ></input>
+			<p style="color:red" th:text="${message}"></p>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and Go Green!</p>
+				<a href="/signup" class="ghost" id="signUp">Sign Up</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</footer>
+</html>
